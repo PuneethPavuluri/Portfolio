@@ -1,0 +1,12 @@
+:root {
+    /* Colours */
+    --color-text: #fff;
+    --color-primary: #0D1B2A;
+    --color-secondary: chocolate;
+    --color-dark: #19376d;
+    --color-bg: #000000;    ;
+    /* --color-diff : ; */
+    /* Fonts */
+    --font-roboto: "Roboto";
+    --color-hover: rgb(150, 75, 21);
+  }

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* color of the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #19376d; /* color of the scrollbar thumb */
+    border-radius: 10px; /* roundness of the scrollbar thumb */
+    border: 3px solid #f1f1f1; /* creates padding around the thumb */
+  }
+  
+  /* For Firefox */
+  html {
+    scrollbar-color: chocolate #04152d; /* thumb color and track color */
+    scrollbar-width: thin; /* width of the scrollbar */
+  }

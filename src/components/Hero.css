@@ -1,0 +1,100 @@
+@import "../vars.css";
+
+.redun{
+    height: 100px;
+}
+.main{
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainLeft{
+    padding: 0px 30px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.mainLeft > h1{
+    font-size: 60px;
+}
+.mainLeft > h2{
+    font-size: 40px;
+    text-align: center;
+}
+.mainLeft > h2 > span{
+    font-size: 40px;
+    text-align: center;
+    /* color: chocolate; */
+    color: var(--color-secondary);
+}
+.mainLeft > p{
+    font-size: 20px;
+    text-align: center;
+}
+.mainBtns{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.mainBtn{
+    border: none;
+    padding: 7px 25px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: var(--color-secondary);
+}
+.mainBtn:hover{
+    background-color: var(--color-hover);
+    transform: scale(1.05);
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+.mainBtn > a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.mainRight{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.mainRight img{
+    height: 300px;
+    width: 250px;
+    border-radius: 50%;
+    top: 0;
+    /* object-fit: cover; */
+    /* top: 0; */
+}
+
+@media screen and (max-width: 860px) {
+    .main{
+        flex-direction: column-reverse;
+    }
+    .mainLeft{
+        width: 100%;
+    }
+    .mainLeft > h1{
+        font-size: 40px;
+    }
+    .mainLeft > h2{
+        font-size: 25px;
+    }
+    .mainLeft > h2 > span{
+        font-size: 25px;
+    }
+    .mainRight{
+        justify-content: center;
+        width: 100%;
+    }
+}
+

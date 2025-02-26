@@ -1,0 +1,84 @@
+.projSec{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.projSec > h2{
+    font-size: 30px;
+    text-align: center;
+}
+.projSec > p{
+    font-size: 20px;
+    text-align: center;
+}
+.projCont{
+    /* width: 90%; */
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.project{
+    width: 320px;
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-dark);
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.project > img{
+    width: 300px;
+    height: 200px;
+    align-self: center;
+    border-radius: 15px;
+}
+
+
+.project > p{
+    overflow: hidden;
+}
+
+.project > h3{
+    color: var(--color-secondary);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projSkill{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.project > a{
+    align-self: center;
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+
+.project:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    border: 2px solid var(--color-secondary);
+}
+
+@media screen and (max-width: 870px) {
+    .projSec{
+        margin: 20px auto;
+    }
+    .projCont{
+        flex-direction: column;
+    }
+
+}
